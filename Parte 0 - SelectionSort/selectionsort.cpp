@@ -1,4 +1,3 @@
-// Figura 8.15: selectionsort.cpp
 // Este programa coloca valores em um array, classifica os valores em ordem 
 // crescente e imprime o array resultante.
 
