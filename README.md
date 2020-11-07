@@ -24,7 +24,7 @@
 
 Classificar coloca os dados na ordem, em geral ascendente ou descendente, com base em uma ou mais chaves de classificação. Uma lista de nomes poderia ser classificada alfabeticamente, contas bancárias poderiam ser classificadas pelo número de conta, registros de folha de pagamento de funcionários poderiam ser classificados pelo CIC e assim por diante.  
 
-### Classificação por seleção utilizando passagem por referência
+### Classificação por seleção (SelectionSort) [Código](https://github.com/Alyssonmach/chaves-de-classificacao/tree/main/Parte%200%20-%20SelectionSort)
 
 A primeira iteração do algoritmo seleciona o menor elemento no array e o troca pelo primeiro elemento. A segunda iteração seleciona o segundo menor elemento (que é o menor dos elementos restantes) e o troca pelo segundo elemento. O algoritmo continua até que a última iteração selecione o segundo maior elemento e permute-o pelo penúltimo índice, deixando o maior elemento no último índice. Depois da i-ésima iteração, os i menores itens do array serão classificados pela ordem crescente nos primeiros i elementos do array.
 
@@ -35,7 +35,7 @@ A primeira iteração do algoritmo seleciona o menor elemento no array e o troca
 
 Observe que, depois da primeira iteração, o menor elemento estará na primeira posição. Depois da segunda iteração, os dois menores elementos estarão na ordem nas duas primeiras posições. Depois da terceira iteração, os três menores elementos estarão na ordem nas três primeiras posições.
 
-### Classificação por intercalação (MergeSort)
+### Classificação por intercalação (MergeSort) [Código](https://github.com/Alyssonmach/chaves-de-classificacao/tree/main/Parte%201%20-%20MergeSort)
 
 A classificação por intercalação é um algoritmo de classificação eficiente, porém conceitualmente mais complexo que a classificação por seleção e a classificação por inserção. O algoritmo de classificação por intercalação classifica um vetor dividindo-o em dois subvetores do mesmo tamanho, classificando cada subvetor e, então, mesclando-os em um vetor maior. Com um número ímpar de elementos, o algoritmo cria os dois subvetores de tal maneira que um deles tenha um elemento a mais que o outro.
 
