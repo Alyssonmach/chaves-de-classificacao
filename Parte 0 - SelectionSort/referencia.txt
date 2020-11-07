@@ -1,4 +1,0 @@
-=== referencia ===
-
-- Livro do Deitel: Como programa em C++;
-- 5° Edição, capítulo 8.6;
