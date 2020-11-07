@@ -1,0 +1,5 @@
+=== referencia ===
+
+- Livro do Deitel: Como programa em C++;
+- 5° Edição;
+- Sessão: 8.6;
