@@ -8,22 +8,22 @@ using std::endl;
 
 using std::vector;
 
-#include <cstdlib> // prototipos para a função srand e rand
+#include <cstdlib> // prototipos para a funcao srand e rand
 
 using std::rand;
 using std::srand;
 
-#include <ctime> // prototipo para a função time
+#include <ctime> // prototipo para a funcao time
 
 using std::time;
 
 #include "MergeSort.h" // definicao da classe MergeSort
 
-// construtor preenche vetor com inteiros aleatórios
+// construtor preenche vetor com inteiros aleatorios
 MergeSort::MergeSort(int vectorSize)
 {
     size = (vectorSize > 0 ? vectorSize : 0); // valida vectorSize
-    srand( time(0) ); // semeia gerados de numeros aleatórios utilizando a hora atual
+    srand( time(0) ); // semeia gerados de numeros aleatorios utilizando a hora atual
 
     // preenche o vetor com ints aleatorios no intervalo de 10-99
     for(int i = 0; i < size; i++)
@@ -37,23 +37,24 @@ MergeSort::MergeSort(int vectorSize)
 void MergeSort::sort()
 {
     sortSubVector(0, size - 1); // classifca recursivamente o vetor inteiro
-} // fim da função sort
+} // fim da funcao sort
 
-// função recursiva para classificar subvetores
+// funcao recursiva para classificar subvetores
 void MergeSort::sortSubVector(int low, int high)
 {
-    // caso básico de teste; tamanho do vetor é igual a 1
-    if( (high - low) >= 1) // se não for o caso básico
+    // caso basico de teste; tamanho do vetor e igual a 1
+    if( (high - low) >= 1) // se nao for o caso basico
     {
         int middle1 = (low + high) / 2; // calcula o meio do vetor
-        int middle2 = middle1 + 1; // calcula o próximo elemento
+        int middle2 = middle1 + 1; // calcula o proximo elemento
 
-        // gera saída do passo da divisão
-        cout << "split: ";
+        // gera saida do passo da divisao
+        cout << endl;
+        cout << "split: " << endl;
         displaySubVector(low, high);
-        cout << endl;
+        cout << endl << "        ";
         displaySubVector(low, middle1);
-        cout << endl;
+        cout << endl << "        ";
         displaySubVector(middle2, high);
         cout << endl << endl;
 
@@ -61,31 +62,31 @@ void MergeSort::sortSubVector(int low, int high)
         sortSubVector(low, middle1); // primeira metade do vetor
         sortSubVector(middle2, high); // segunda metade do vetor
 
-        // intercala dois vetores classificados após as chamadas de divisão retornarem
+        // intercala dois vetores classificados apos as chamadas de divisao retornarem
         merge(low, middle1, middle2, high);
     } // fim do if
-} // fim da função sortSubVector
+} // fim da funcao sortSubVector
 
 // intercala dois subvetores classificados em um subvetor classificado
 void MergeSort::merge(int left, int middle1, int middle2, int right)
 {
     int leftIndex = left; // indice do subvetor esquerdo
-    int rightIndex = right; // indice do subvetor direito
-    int combinedIndex = left; // indice no vetor de trabalho temporário
+    int rightIndex = middle2; // indice do subvetor direito
+    int combinedIndex = left; // indice no vetor de trabalho temporario
     vector< int > combined(size); // vetor de trabalho
 
-    // gera saída dos dois subvetores antes da intercalação
-    cout << "merge: ";
+    // gera saida dos dois subvetores antes da intercalacao
+    cout << "merge: " << endl;
     displaySubVector(left, middle1);
     cout << endl << "        ";
     displaySubVector(middle2, right);
     cout << endl;
 
-    // intercala vetores até alcançar o fim de um deles
+    // intercala vetores ate alcancar o fim de um deles
     while(leftIndex <= middle1 && rightIndex <= right)
     {
         // coloca o menor dos dois elementos no resultado
-        // e se move para o próximo espaço do vetor
+        // e se move para o proximo espaco do vetor
         if( data[ leftIndex ] <= data[ rightIndex ] )
         {
             combined[ combinedIndex++ ] = data[ leftIndex++ ];
@@ -117,33 +118,33 @@ void MergeSort::merge(int left, int middle1, int middle2, int right)
         data[i] = combined[i];
     }
 
-    // gera saída do vetor intercalado
+    // gera saida do vetor intercalado
     cout << "      ";
     displaySubVector( left, right );
     cout << endl << endl;
-} // fim da função merge
+} // fim da funcao merge
 
 // exibe elementos no vetor
 void MergeSort::displayElements() const
 {
     displaySubVector(0, size - 1);
-} // fim da função displayElements
+} // fim da funcao displayElements
 
 // exibe certos valores no vetor
 void MergeSort::displaySubVector(int low, int high) const
 {
-    // gera espaços para alinhamento
-    for int i = 0; i < low; i++)
+    // gera espacos para alinhamento
+    for(int i = 0; i < low; i++)
     {
         cout << "   ";
     }
 
-    // gera saída dos elementos deixados no vetor
+    // gera saida dos elementos deixados no vetor
     for(int i = low; i <= high; i++)
     {
         cout << " " << data[i];
     }
-} // fim da função displaySubVector
+} // fim da funcao displaySubVector
 
 
 
