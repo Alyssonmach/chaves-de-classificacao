@@ -8,7 +8,7 @@ using std::endl;
 int main(void)
 {
     // cria o objeto para executar a classificacao por intercalacao
-    MergeSort sortVector(100);
+    MergeSort sortVector(10);
 
     cout << "Unsorted Vector: " << endl;
     sortVector.displayElements(); // imprime o vetor nao classificado
