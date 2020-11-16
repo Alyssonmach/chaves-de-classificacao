@@ -22,6 +22,7 @@
 - <a href = "" target = "_blank">Visualize o vídeo</a>;
 
 ### Códigos de Implementação 
+- <a href = "https://github.com/Alyssonmach/chaves-de-classificacao" target = "_blank">Visualize os códigos</a>;
 - [(Baixe os códigos)](https://github.com/Alyssonmach/chaves-de-classificacao/archive/main.zip);
 
 ### Objetivos
