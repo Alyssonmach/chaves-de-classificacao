@@ -14,17 +14,18 @@
 3. **Nathan Ferreira**;
 4. **Iago Miguel**;
 
+### Slide de Apresentação
+- <a href = "" target = "_blanck">Visualize os slides</a>;
+- [(Baixe os slides)];
+
+### Vídeo Referente ao Seminário
+- <a href = "" target = "_blanck">Visualize o vídeo</a>;
+
 ### Objetivos
 
 - Implementação dos algoritmos de classificação **SelectionSort** e **MergeSort**;
 - A determinar a **eficiência dos algoritmos** de classificação;
 - Implementar uma aplicação de classificação de contas bancárias pelo número da conta;
-
-<object data="https://github.com/Alyssonmach/chaves-de-classificacao/blob/main/Parte%204%20-%20Aplica%C3%A7%C3%B5es/teste.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://github.com/Alyssonmach/chaves-de-classificacao/blob/main/Parte%204%20-%20Aplica%C3%A7%C3%B5es/teste.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href= "https://github.com/Alyssonmach/chaves-de-classificacao/blob/main/Parte%204%20-%20Aplica%C3%A7%C3%B5es/teste.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
 
 ### Introdução
 
