@@ -15,14 +15,14 @@
 4. **Iago Miguel**;
 
 ### Slide de Apresentação
-- <a href = "" target = "_blank">Visualize os slides</a>;
+- <a href = "" target = "_blank">(Visualize os slides)</a>;
 - [(Baixe os slides)];
 
 ### Vídeo Referente ao Seminário
-- <a href = "" target = "_blank">Visualize o vídeo</a>;
+- <a href = "" target = "_blank">(Visualize o vídeo)</a>;
 
 ### Códigos de Implementação 
-- <a href = "https://github.com/Alyssonmach/chaves-de-classificacao" target = "_blank">Visualize os códigos</a>;
+- <a href = "https://github.com/Alyssonmach/chaves-de-classificacao" target = "_blank">(Visualize os códigos)</a>;
 - [(Baixe os códigos)](https://github.com/Alyssonmach/chaves-de-classificacao/archive/main.zip);
 
 ### Objetivos
