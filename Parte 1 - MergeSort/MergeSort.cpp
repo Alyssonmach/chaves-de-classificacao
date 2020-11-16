@@ -50,11 +50,11 @@ void MergeSort::sortSubVector(int low, int high)
 
         // gera saida do passo da divisao
         cout << endl;
-        cout << "split: " << endl;
+        cout << "Divide os dados: " << endl << endl;
         displaySubVector(low, high);
-        cout << endl << "        ";
+        cout << endl << " ";
         displaySubVector(low, middle1);
-        cout << endl << "        ";
+        cout << endl << " ";
         displaySubVector(middle2, high);
         cout << endl << endl;
 
@@ -76,9 +76,9 @@ void MergeSort::merge(int left, int middle1, int middle2, int right)
     vector< int > combined(size); // vetor de trabalho
 
     // gera saida dos dois subvetores antes da intercalacao
-    cout << "merge: " << endl;
+    cout << "Funde os dados: " << endl << endl;
     displaySubVector(left, middle1);
-    cout << endl << "        ";
+    cout << endl << " ";
     displaySubVector(middle2, right);
     cout << endl;
 
@@ -119,7 +119,7 @@ void MergeSort::merge(int left, int middle1, int middle2, int right)
     }
 
     // gera saida do vetor intercalado
-    cout << "      ";
+    cout << " ";
     displaySubVector( left, right );
     cout << endl << endl;
 } // fim da funcao merge
@@ -136,7 +136,7 @@ void MergeSort::displaySubVector(int low, int high) const
     // gera espacos para alinhamento
     for(int i = 0; i < low; i++)
     {
-        cout << "   ";
+        cout << " ";
     }
 
     // gera saida dos elementos deixados no vetor
