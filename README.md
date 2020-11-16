@@ -15,11 +15,11 @@
 4. **Iago Miguel**;
 
 ### Slide de Apresentação
-- <a href = "" target = "_blanck">Visualize os slides</a>;
+- <a href = "" target = "_blank">Visualize os slides</a>;
 - [(Baixe os slides)];
 
 ### Vídeo Referente ao Seminário
-- <a href = "" target = "_blanck">Visualize o vídeo</a>;
+- <a href = "" target = "_blank">Visualize o vídeo</a>;
 
 ### Objetivos
 
