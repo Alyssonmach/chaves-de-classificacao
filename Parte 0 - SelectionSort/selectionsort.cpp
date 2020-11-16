@@ -15,10 +15,10 @@ void swap(int * const, int * const); // prototipo
 
 int main(void)
 {
-    const int arraySize = 10;
-    int a[arraySize] = {2, 6, 4, 8, 10, 12, 89, 68, 45, 37};
+    const int arraySize = 16;
+    int a[arraySize] = {2, 6, 4, 8, 10, 12, 89, 68, 45, 37, 1, 9, 4, 6, 56, 4};
 
-    cout << "Data items in original order" << endl;
+    cout << "=== Dados em ordem original ===" << endl;
 
     for(int i = 0; i < arraySize; i++)
     {
@@ -29,7 +29,7 @@ int main(void)
 	
     selectionSort(a, arraySize); // classifica o array
 
-    cout << "Data items in ascending order" << endl;
+    cout << "=== Dados ordenados ===" << endl;
 
     for(int j = 0; j < arraySize; j++)
     {
@@ -62,6 +62,8 @@ void selectionSort(int * const array, const int size)
 
         swap(&array[i], &array[smallest]);
     } // fim do for
+    
+    return;
 } // fim da funcao selectionSort
 
 // troca os valores nas posicoes de memoria para as quais
@@ -71,4 +73,6 @@ void swap(int * const element1Ptr, int * const element2Ptr)
     int hold = * element1Ptr;
     *element1Ptr = *element2Ptr;
     *element2Ptr = hold;
+    
+    return;
 } // fim da funcao swap
