@@ -1,7 +1,7 @@
 # Chaves de Classificação
 
 ### Título do Seminário
-- Clasificação de dados com base em chaves de classificação (SelectionSort, MergeSort). Demonstração da eficiência do algoritmo.
+- Clasificação de dados com base em chaves de classificação (**SelectionSort**, **MergeSort**). Demonstração da eficiência do algoritmo.
 
 ### Detalhes Técnicos
 - Data de apresentação **17/11/2020**;
@@ -25,7 +25,7 @@
 
 - Implementação dos algoritmos de classificação **SelectionSort** e **MergeSort**;
 - A determinar a **eficiência dos algoritmos** de classificação;
-- Implementar uma aplicação de classificação de contas bancárias pelo número da conta;
+- Aplicar os métodos de ordenação em um exemplo com lista de Vector;
 
 ### Introdução
 
