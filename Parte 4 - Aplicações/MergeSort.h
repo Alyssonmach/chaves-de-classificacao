@@ -13,8 +13,8 @@ class MergeSort
 {
     public:
         MergeSort(int); // construtor inicializa vetor
-        void sort_mergesort(); // classifica o vetor utilizando classificacao por intercalacao
-        void sort_selectionsort(); // classifica o vetor utilizando classificacao por selecao
+        void sortMergeSort(void); // classifica o vetor utilizando classificacao por intercalacao
+        void sortSelectionSort(void); // classifica o vetor utilizando classificacao por selecao
         void displayElements() const; // exibe elementos do vetor
     private:
         int size; // tamanho do vetor

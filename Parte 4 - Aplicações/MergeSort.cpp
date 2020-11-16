@@ -22,7 +22,7 @@ MergeSort::MergeSort(int vectorSize)
 } // fim do construtor de MergeSort
 
 // divide o vetor, classifica os subvetores,  e intercala os subvetores no vetor classificado
-void MergeSort::sort_mergesort()
+void MergeSort::sortMergeSort()
 {
     sortSubVector(0, size - 1); // classifca recursivamente o vetor inteiro
 } // fim da funcao sort
@@ -113,7 +113,7 @@ void MergeSort::displaySubVector(int low, int high) const
     }
 } // fim da funcao displaySubVector
 
-void MergeSort::sort_selectionsort()
+void MergeSort::sortSelectionSort(void)
 {
 	int smallest; // indice do menor elemento
 
