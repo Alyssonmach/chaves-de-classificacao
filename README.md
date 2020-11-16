@@ -20,9 +20,9 @@
 - A determinar a **eficiência dos algoritmos** de classificação;
 - Implementar uma aplicação de classificação de contas bancárias pelo número da conta;
 
-<object data="http://yoursite.com/the.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="http://yoursite.com/the.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
+<object data="https://github.com/Alyssonmach/chaves-de-classificacao/blob/main/Parte%204%20-%20Aplica%C3%A7%C3%B5es/teste.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://github.com/Alyssonmach/chaves-de-classificacao/blob/main/Parte%204%20-%20Aplica%C3%A7%C3%B5es/teste.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href= "https://github.com/Alyssonmach/chaves-de-classificacao/blob/main/Parte%204%20-%20Aplica%C3%A7%C3%B5es/teste.pdf">Download PDF</a>.</p>
     </embed>
 </object>
 
