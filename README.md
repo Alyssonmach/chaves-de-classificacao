@@ -28,8 +28,8 @@
 ### Objetivos
 
 - Implementação dos algoritmos de classificação **SelectionSort** e **MergeSort**;
-- A determinar a **eficiência dos algoritmos** de classificação;
-- Aplicar os métodos de ordenação em um exemplo com lista de Vector;
+- A determinar a **eficiência dos algoritmos** de classificação; [Código](https://github.com/Alyssonmach/chaves-de-classificacao/tree/main/Parte%204%20-%20Aplica%C3%A7%C3%B5es/Demonstra%C3%A7%C3%A3o%20da%20Efici%C3%AAncia)
+- Aplicar os métodos de ordenação em um exemplo com lista de Vector; [Código]()https://github.com/Alyssonmach/chaves-de-classificacao/tree/main/Parte%204%20-%20Aplica%C3%A7%C3%B5es/Exemplo%20com%20listas
 
 ### Introdução
 
