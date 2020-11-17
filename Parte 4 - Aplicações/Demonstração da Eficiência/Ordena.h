@@ -1,5 +1,5 @@
-#ifndef MERGESORT_H
-#define MERGESORT_H
+#ifndef ORDENA_H
+#define ORDENA_H
 
 // classe que cria um vetor preenchido com inteiros aleatorios.
 // fornece uma funcao para classificar o vetor com classificacao por intercalacao.
@@ -9,10 +9,10 @@
 using std::vector;
 
 // definicao da classe MergeSort
-class MergeSort
+class Ordena
 {
     public:
-        MergeSort(int); // construtor inicializa vetor
+        Ordena(int); // construtor inicializa vetor
         void sortMergeSort(void); // classifica o vetor utilizando classificacao por intercalacao
         void sortSelectionSort(void); // classifica o vetor utilizando classificacao por selecao
         void displayElements() const; // exibe elementos do vetor

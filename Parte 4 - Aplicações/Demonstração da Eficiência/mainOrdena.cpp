@@ -3,12 +3,12 @@
 using std::cout;
 using std::endl;
 
-#include "MergeSort.cpp" // definicao da classe MergeSort
+#include "Ordena.cpp" // definicao da classe MergeSort
 
 int main(void)
 {
     // cria o objeto para executar a classificacao por intercalacao
-    MergeSort sortVector1(100000), sortVector2(100000);
+    Ordena sortVector1(100000), sortVector2(100000);
 	
     //cout << "=== Vetor Desordenado ===" << endl;
     //sortVector1.displayElements(); // imprime o vetor nao classificado
@@ -19,9 +19,9 @@ int main(void)
 	cout << endl;
     cout << "Tempo de execucao em segundos (MergeSort): " << (fim - inicio)/CLOCKS_PER_SEC << endl;
 	cout << endl;	
-    cout << "=== Vetor Ordenado (MergeSort) ===" << endl;
+   // cout << "=== Vetor Ordenado (MergeSort) ===" << endl;
     //sortVector1.displayElements(); // imprime o vetor classificado
-    cout << endl << endl << endl;
+   // cout << endl << endl << endl;
 	
 	//cout << "=== Vetor Desordenado ===" << endl;
     //sortVector2.displayElements(); // imprime o vetor nao classificado

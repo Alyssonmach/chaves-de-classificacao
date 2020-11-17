@@ -1,33 +1,33 @@
 
-Alysson Machado
-084.985.134-30
-20
-70.9
-Edinaldo Pereira
-123.456.789-12
-43
-92.4
-Nathan Ferreira
-123.678.432-56
-12
-100
-Iago Miguel
-145.674.145-78
-77
-5
-Francinildo Figueiredo
-345.678.123-12
-15
-120.2
-Seu Jose da Bidoga
-456.789.123-34
-76
-95.7
-Aleksandro Machado
-567.535.234-67
-30
-80.5
 Marcos Vinicius
 567.896.135-45
 5
 150
+Nathan Ferreira
+123.678.432-56
+12
+100
+Francinildo Figueiredo
+345.678.123-12
+15
+120.2
+Alysson Machado
+084.985.134-30
+20
+70.9
+Aleksandro Machado
+567.535.234-67
+30
+80.5
+Edinaldo Pereira
+123.456.789-12
+43
+92.4
+Seu Jose da Bidoga
+456.789.123-34
+76
+95.7
+Iago Miguel
+145.674.145-78
+77
+5

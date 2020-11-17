@@ -5,10 +5,10 @@
 
 using namespace std;
 
-#include "MergeSort.h" 
+#include "Ordena.h" 
 
 // construtor preenche vetor com inteiros aleatorios
-MergeSort::MergeSort(int vectorSize)
+Ordena::Ordena(int vectorSize)
 {
     size = (vectorSize > 0 ? vectorSize : 0); // valida vectorSize
     srand( time(0) ); // semeia gerados de numeros aleatorios utilizando a hora atual
@@ -22,13 +22,13 @@ MergeSort::MergeSort(int vectorSize)
 } // fim do construtor de MergeSort
 
 // divide o vetor, classifica os subvetores,  e intercala os subvetores no vetor classificado
-void MergeSort::sortMergeSort()
+void Ordena::sortMergeSort()
 {
     sortSubVector(0, size - 1); // classifca recursivamente o vetor inteiro
 } // fim da funcao sort
 
 // funcao recursiva para classificar subvetores
-void MergeSort::sortSubVector(int low, int high)
+void Ordena::sortSubVector(int low, int high)
 {
     // caso basico de teste; tamanho do vetor e igual a 1
     if( (high - low) >= 1) // se nao for o caso basico
@@ -46,7 +46,7 @@ void MergeSort::sortSubVector(int low, int high)
 } // fim da funcao sortSubVector
 
 // intercala dois subvetores classificados em um subvetor classificado
-void MergeSort::merge(int left, int middle1, int middle2, int right)
+void Ordena::merge(int left, int middle1, int middle2, int right)
 {
     int leftIndex = left; // indice do subvetor esquerdo
     int rightIndex = middle2; // indice do subvetor direito
@@ -92,13 +92,13 @@ void MergeSort::merge(int left, int middle1, int middle2, int right)
 } // fim da funcao merge
 
 // exibe elementos no vetor
-void MergeSort::displayElements() const
+void Ordena::displayElements() const
 {
     displaySubVector(0, size - 1);
 } // fim da funcao displayElements
 
 // exibe certos valores no vetor
-void MergeSort::displaySubVector(int low, int high) const
+void Ordena::displaySubVector(int low, int high) const
 {
     // gera espacos para alinhamento
     for(int i = 0; i < low; i++)
@@ -113,7 +113,7 @@ void MergeSort::displaySubVector(int low, int high) const
     }
 } // fim da funcao displaySubVector
 
-void MergeSort::sortSelectionSort(void)
+void Ordena::sortSelectionSort(void)
 {
 	int smallest; // indice do menor elemento
 
