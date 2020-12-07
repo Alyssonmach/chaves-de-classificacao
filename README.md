@@ -18,9 +18,6 @@
 - <a href = "https://github.com/Alyssonmach/chaves-de-classificacao/blob/main/apresentacao.pdf" target = "_blank">(Visualize os slides)</a>;
 - [(Baixe os slides)](https://github.com/Alyssonmach/chaves-de-classificacao/raw/main/apresentacao.pdf);
 
-### Vídeo Referente ao Seminário
-- <a href = "https://www.youtube.com/watch?v=L1sr94UvVIk&feature=youtu.be&ab_channel=AlyssonMachadoDeOliveiraBarbosa" target = "_blank">(Visualize o vídeo)</a>;
-
 ### Códigos de Implementação 
 - <a href = "https://github.com/Alyssonmach/chaves-de-classificacao" target = "_blank">(Visualize os códigos)</a>;
 - [(Baixe os códigos)](https://github.com/Alyssonmach/chaves-de-classificacao/archive/main.zip);
