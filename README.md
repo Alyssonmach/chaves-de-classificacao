@@ -71,3 +71,5 @@ A classificação por intercalação é um algoritmo muito mais eficiente que a 
 
 > Visualizando o funcionamento do MergeSort
 
+### Alguma dúvida? Entre em contato comigo:
+- [Me envie um e-mail](alysson.barbosa@ee.ufcg.edu.br)
