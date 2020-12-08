@@ -6,13 +6,6 @@
 ### Detalhes Técnicos
 - Seminário de Técnicas de Programação [Período 2020.0] - UFCG;
 
-### Membros envolvidos no seminário
-
-1. **Alysson Machado**;
-2. **Marcus Vinícios**;
-3. **Nathan Ferreira**;
-4. **Iago Miguel**;
-
 ### Slide de Apresentação
 - <a href = "https://github.com/Alyssonmach/chaves-de-classificacao/blob/main/apresentacao.pdf" target = "_blank">(Visualize os slides)</a>;
 - [(Baixe os slides)](https://github.com/Alyssonmach/chaves-de-classificacao/raw/main/apresentacao.pdf);
